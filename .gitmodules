@@ -1,0 +1,10 @@
+[submodule "drn"]
+	path = drn
+	url = https://github.com/fyu/drn.git
+[submodule "tf_models"]
+	path = tf_models
+	url = https://github.com/tensorflow/models.git
+[submodule "BDD_Driving_Model"]
+	path = BDD_Driving_Model
+	url = https://github.com/pschafhalter/BDD_Driving_Model.git
+	branch = python3-ray-port
