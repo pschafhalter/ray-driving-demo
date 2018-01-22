@@ -38,7 +38,7 @@ lstm = DrivingModel.remote("discrete_cnn_lstm",
 
 # Initialize segmentation actor
 seg_actor = Segmentor.remote("drn_d_22", 19, "data/drn_d_22_bdd_v1.pth",
-                             segment.CITYSCAPE_PALLETE)
+                             segment.CITYSCAPE_PALETTE)
 
 # Initialize object detection actor
 OD_MODEL_NAME = "data/ssd_mobilenet_v1_coco_2017_11_17"
