@@ -7,10 +7,10 @@
 1. Clone the repository using `git clone --recursive`.
 2. Run `setup.sh`.
 3. Download remaining segmentation and control model to `./data`.
-  - Copies of models are available [here](https://drive.google.com/open?id=17RsdQD-f_cIUDI_y6JnMPCmgvVL2K_Yo)
+    - Copies of models are available [here](https://drive.google.com/open?id=17RsdQD-f_cIUDI_y6JnMPCmgvVL2K_Yo)
 4. Add dashcam videos to `./demo_vids`.
-  - I recommend videos from the [Berkeley DeepDrive Video Dataset](http://data-bdd.berkeley.edu/),
-  but any 1280x720 videos should work.
+    - I recommend videos from the [Berkeley DeepDrive Video Dataset](http://data-bdd.berkeley.edu/),
+    but any 1280x720 videos should work.
 
 # Running the application
 1. From the project directory, run `python3 demo.py`.
