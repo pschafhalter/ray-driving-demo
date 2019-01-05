@@ -37,7 +37,7 @@ pyparsing==2.2.0
 pytest==3.3.2
 python-dateutil==2.6.1
 pytz==2017.3
-PyYAML==3.12
+pyyaml>=4.2b1
 -e git+git@github.com:pschafhalter/ray.git@bd32ee8bc8ca8cf09985d6b77864918e54bcfd00#egg=ray&subdirectory=python
 redis==2.10.6
 scikit-video==1.1.10
